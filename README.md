@@ -48,14 +48,12 @@ the game to the Switch's SD card on a computer.
    the HOME menu, and keep holding until the Homebrew Menu appears. (Started from the album, the
    game gets too little memory to load a level, and it says so.) Choose **Amsterdoom**. A start
    screen opens.
-3. **Read in the game**, in one of two ways:
-    - **Inlezen van de sd-kaart / Read in from the SD card**: the screen looks for the game on the
-      card by itself (up to three folders deep, for example `/Amsterdoom/Target Files`); below
-      the button it shows what it found.
-    - **Kies de map… / Choose the folder…**: choose the folder of your copy in the screen's own
-      folder list, with the controller or the touchscreen. The program finds the game in the
-      chosen folder by itself (it looks for `Adamwin.ini`, which on the CD is in
-      `Target Files`).
+3. **Read in the game**: choose **Kies de map op de sd-kaart… / Choose the folder on the SD
+   card…** and, in the screen's own folder list (controller or touchscreen), go to your copy and
+   choose **Kies deze map / Choose this folder**. The program finds the game in the chosen folder
+   by itself (it looks for `Adamwin.ini`, which on the CD is in `Target Files`), so choosing the
+   folder of the whole CD copy is fine; the list says "Amsterdoom found in this folder" when it
+   is in the right place.
 
     The files are copied to `/switch/Amsterdoom/GameData` on the SD card. **They are not uploaded
     or sent anywhere.** Reading in takes a minute or two (around 220 MB). After that, the copy you
@@ -104,8 +102,6 @@ A USB keyboard and mouse (through the dock) work too, with the game's original k
 
 - **"Amsterdoom needs the full memory of the Switch"**: it was started from the album. Start the
   Homebrew Menu by holding **R** while starting a game (see [Playing](#playing)).
-- **The SD card button stays grey ("no Amsterdoom found on the SD card")**: the copy is deeper
-  than three folders, or not on the card. Choose its folder with **Choose the folder…**.
 - **"No Amsterdoom found in this folder"**: choose the CD copy itself, its `Target Files` folder,
   or the folder of the installed game. The game folder needs `Adamwin.ini`, `AdamWin.exe`,
   `AdamMenu.exe` and the `Levels` folder.
